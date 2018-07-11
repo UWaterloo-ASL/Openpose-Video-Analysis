@@ -50,6 +50,7 @@ if __name__ == "__main__":
         camera = cv2.VideoCapture(args["video"])
     # frames per second (fps) in the raw video
     fps = camera.get(cv2.CAP_PROP_FPS)
+    frame_count = 1
     print("Raw frames per second: {0}".format(fps))
     # prepare to save video
     (grabbed, frame) = camera.read()
@@ -67,16 +68,17 @@ if __name__ == "__main__":
     fheight, fwidth, channels = frame_cropped.shape
     #pdb.set_trace()
     print("Frame width:{}, Frame height:{}.".format(fwidth , fheight))
-    
+
     # get output file name
     file_path = args["video"].split('/')
     file_name, _= file_path[-1].split('.')
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    out_camera_frame = cv2.VideoWriter(os.path.join(args['output_directory'],'{}_processed.avi'.format(file_name)),fourcc, 20.0, (fwidth,fheight))
-
+    out_camera_frame = cv2.VideoWriter(os.path.join(args['output_directory'],'{}_processed.avi'.format(file_name)),fourcc, fps, (fwidth,fheight))
     # loop over the frames of the video
     while True:
         (grabbed, frame) = camera.read()
+        frame_count += 1
+        time = (1/fps)*1000*frame_count #time after "frame_count" frame
         # if the frame could not be grabbed, then we have reached the end
         # of the video
         if not grabbed:
@@ -90,13 +92,17 @@ if __name__ == "__main__":
         keypoints, output_image = openpose.forward(frame_cropped, True)
         # Print the human pose keypoints, i.e., a [#people x #keypoints x 3]-dimensional numpy object with the keypoints of all the people on that image
         #print(keypoints.shape)
-        
+
         # draw the text and timestamp on the frame
         occupancy = keypoints.shape[0]
         cv2.putText(output_image, "Current Occupancy: {}".format(occupancy), (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+        with open(os.path.join(args['output_directory'],'{}_processed_occupancy.txt'.format(file_name)), "a+") as fh:
+           fh.write("({},{})\n".format(time, occupancy))
+        #Tracer()()
         # save video
         #cv2.imwrite('messigray_1gpu_cropped2.png',output_image)
         #cv2.imwrite('messigray_1gpu_cropped2_frame.png',frame_cropped)
         out_camera_frame.write(output_image)
-        cv2.waitKey(15)
+        # waite for a pressed key
+        #cv2.waitKey(15)
         
