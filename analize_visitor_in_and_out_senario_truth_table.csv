@@ -1,0 +1,28 @@
+# of visitors in core area: x,# of visitors in margin: y,# of visitors in whole interest area: z,Truth value,Explanation
+0,0,0,1,No people transform between space.
+0,0,1,0,Impossible
+0,0,2,0,Impossible
+0,1,0,0,Impossible
+0,1,1,0,New people come in
+0,1,2,0,Impossible
+0,2,0,0,Impossible
+0,2,1,0,Impossible
+0,2,1,1,People get out
+1,0,0,0,Impossible
+1,0,1,1,New people come in and people move from margin to core area.
+1,0,2,1,People move from margin to core area and more people in margin get out of whole interest area.
+1,1,0,0,Impossible
+1,1,1,1,People move from margin to core area and more new people come into the margin  area.
+1,1,2,0,Impossible
+1,2,0,1,People move from margin into core interest area.
+1,2,1,1,New people come in and more people move from margin into core interest area.
+1,2,2,1,People move from margin into core interest area and more people get out of whole interest area.
+2,0,0,0,Impossible
+2,0,1,0,Impossible
+2,0,2,1,"People get out of core area into margin, and the same # of people get out of whole interest area."
+2,1,0,1,"People get out of core area into margin, and no people get out of whole interest area."
+2,1,1,1,"People get out of core area into margin, and new people come in."
+2,1,2,1,"People get out of core area into margin, and less than this # of people get out of whole interest area."
+2,2,0,0,Impossible
+2,2,1,0,Impossible
+2,2,2,1,"People get out of core area into margin, and more people get out of whole interest area."
