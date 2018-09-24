@@ -3,14 +3,14 @@
 0,0,1,0,Impossible
 0,0,2,0,Impossible
 0,1,0,0,Impossible
-0,1,1,0,New people come in
+0,1,1,1,New people come in
 0,1,2,0,Impossible
 0,2,0,0,Impossible
 0,2,1,0,Impossible
-0,2,1,1,People get out
+0,2,2,1,People get out
 1,0,0,0,Impossible
-1,0,1,1,New people come in and people move from margin to core area.
-1,0,2,1,People move from margin to core area and more people in margin get out of whole interest area.
+1,0,1,1,New people come in and the same number of people move from margin to core area.
+1,0,2,0,Impossible
 1,1,0,0,Impossible
 1,1,1,1,People move from margin to core area and more new people come into the margin  area.
 1,1,2,0,Impossible
