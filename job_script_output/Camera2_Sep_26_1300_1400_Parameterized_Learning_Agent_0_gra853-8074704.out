@@ -1,0 +1,138 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+python/3.5.2:
+   This module is deprecated and will be removed in the future. Please
+   upgrade to python/3.5. If you had created virtual environments we
+   recommend to recreate them. Ce module est marqué pour être retiré et
+   sera supprimé dans le futur. Veuillez utiliser python/3.5. Si vous aviez
+   créé un environnement virtuel, nous vous recommandons de le recréer.
+
+-------------------------------------------------------------------------------
+
+sh: openposeEnv_Python3/bin/activate: No such file or directory
+OpenPose Library Python Wrapper
+Raw frames per second: 16.91301794632967
+Frame width:960, Frame height:756.
+Total frame number: 10147.0
+Processing frame: 0
+Elapsed time: 1.1444091796875e-05s
+Processing frame: 200
+Elapsed time: 47.534259557724s
+Processing frame: 400
+Elapsed time: 90.69567537307739s
+Processing frame: 600
+Elapsed time: 133.02859234809875s
+Processing frame: 800
+Elapsed time: 176.02477717399597s
+Processing frame: 1000
+Elapsed time: 219.07126784324646s
+Processing frame: 1200
+Elapsed time: 261.5315728187561s
+Processing frame: 1400
+Elapsed time: 304.4698791503906s
+Processing frame: 1600
+Elapsed time: 347.45219373703003s
+Processing frame: 1800
+Elapsed time: 389.8994345664978s
+Processing frame: 2000
+Elapsed time: 432.90466570854187s
+Processing frame: 2200
+Elapsed time: 475.94353318214417s
+Processing frame: 2400
+Elapsed time: 518.3453965187073s
+Processing frame: 2600
+Elapsed time: 561.4106919765472s
+Processing frame: 2800
+Elapsed time: 604.4729511737823s
+Processing frame: 3000
+Elapsed time: 646.920407295227s
+Processing frame: 3200
+Elapsed time: 689.9094605445862s
+Processing frame: 3400
+Elapsed time: 733.0068476200104s
+Processing frame: 3600
+Elapsed time: 775.4087789058685s
+Processing frame: 3800
+Elapsed time: 818.5286757946014s
+Processing frame: 4000
+Elapsed time: 861.5469875335693s
+Processing frame: 4200
+Elapsed time: 903.9513125419617s
+Processing frame: 4400
+Elapsed time: 947.0041673183441s
+Processing frame: 4600
+Elapsed time: 990.4339261054993s
+Processing frame: 4800
+Elapsed time: 1032.7176196575165s
+Processing frame: 5000
+Elapsed time: 1075.7185323238373s
+Processing frame: 5200
+Elapsed time: 1118.67462515831s
+Processing frame: 5400
+Elapsed time: 1161.030207157135s
+Processing frame: 5600
+Elapsed time: 1203.9756731987s
+Processing frame: 5800
+Elapsed time: 1246.960221529007s
+Processing frame: 6000
+Elapsed time: 1289.2595512866974s
+Processing frame: 6200
+Elapsed time: 1332.237491607666s
+Processing frame: 6400
+Elapsed time: 1375.1600461006165s
+Processing frame: 6600
+Elapsed time: 1417.4598445892334s
+Processing frame: 6800
+Elapsed time: 1460.470813035965s
+Processing frame: 7000
+Elapsed time: 1503.498205423355s
+Processing frame: 7200
+Elapsed time: 1545.8195657730103s
+Processing frame: 7400
+Elapsed time: 1588.7090284824371s
+Processing frame: 7600
+Elapsed time: 1631.6280915737152s
+Processing frame: 7800
+Elapsed time: 1673.877825975418s
+Processing frame: 8000
+Elapsed time: 1716.829640865326s
+Processing frame: 8200
+Elapsed time: 1759.721800327301s
+Processing frame: 8400
+Elapsed time: 1801.9864449501038s
+Processing frame: 8600
+Elapsed time: 1844.8665285110474s
+Processing frame: 8800
+Elapsed time: 1887.7993123531342s
+Processing frame: 9000
+Elapsed time: 1930.05459856987s
+Processing frame: 9200
+Elapsed time: 1972.9630074501038s
+Processing frame: 9400
+Elapsed time: 2015.9581217765808s
+Processing frame: 9600
+Elapsed time: 2058.2626416683197s
+Processing frame: 9800
+Elapsed time: 2101.1544857025146s
+Processing frame: 10000
+Elapsed time: 2144.0050423145294s
+Frame: 10146, grabbed=False and frame=None
+Processing frame: 0
+Processing frame: 200
+Processing frame: 400
+Processing frame: 600
+Processing frame: 800
+Processing frame: 1000
+Processing frame: 1200
+Processing frame: 1400
+Processing frame: 1600
+Processing frame: 1800
+Processing frame: 2000
+Processing frame: 2200
+Processing frame: 2400
+Processing frame: 2600
+Processing frame: 2800
+Processing frame: 3000
+Processing frame: 3200

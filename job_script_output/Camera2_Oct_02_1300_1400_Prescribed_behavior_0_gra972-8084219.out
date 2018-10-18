@@ -1,0 +1,150 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+python/3.5.2:
+   This module is deprecated and will be removed in the future. Please
+   upgrade to python/3.5. If you had created virtual environments we
+   recommend to recreate them. Ce module est marqué pour être retiré et
+   sera supprimé dans le futur. Veuillez utiliser python/3.5. Si vous aviez
+   créé un environnement virtuel, nous vous recommandons de le recréer.
+
+-------------------------------------------------------------------------------
+
+sh: openposeEnv_Python3/bin/activate: No such file or directory
+OpenPose Library Python Wrapper
+Raw frames per second: 18.616079205016074
+Frame width:960, Frame height:756.
+Total frame number: 11168.0
+Processing frame: 0
+Elapsed time: 9.5367431640625e-06s
+Processing frame: 200
+Elapsed time: 47.67694115638733s
+Processing frame: 400
+Elapsed time: 90.60182571411133s
+Processing frame: 600
+Elapsed time: 132.88103938102722s
+Processing frame: 800
+Elapsed time: 175.879163980484s
+Processing frame: 1000
+Elapsed time: 218.9081597328186s
+Processing frame: 1200
+Elapsed time: 261.26516795158386s
+Processing frame: 1400
+Elapsed time: 304.3017067909241s
+Processing frame: 1600
+Elapsed time: 347.25554728507996s
+Processing frame: 1800
+Elapsed time: 389.6425220966339s
+Processing frame: 2000
+Elapsed time: 432.61787009239197s
+Processing frame: 2200
+Elapsed time: 475.5865170955658s
+Processing frame: 2400
+Elapsed time: 517.8835172653198s
+Processing frame: 2600
+Elapsed time: 560.868349313736s
+Processing frame: 2800
+Elapsed time: 603.9095649719238s
+Processing frame: 3000
+Elapsed time: 646.3199985027313s
+Processing frame: 3200
+Elapsed time: 689.211267709732s
+Processing frame: 3400
+Elapsed time: 732.0889730453491s
+Processing frame: 3600
+Elapsed time: 774.3247501850128s
+Processing frame: 3800
+Elapsed time: 817.3431339263916s
+Processing frame: 4000
+Elapsed time: 860.3805460929871s
+Processing frame: 4200
+Elapsed time: 902.5840940475464s
+Processing frame: 4400
+Elapsed time: 945.4140293598175s
+Processing frame: 4600
+Elapsed time: 988.2388305664062s
+Processing frame: 4800
+Elapsed time: 1030.4670214653015s
+Processing frame: 5000
+Elapsed time: 1073.392506122589s
+Processing frame: 5200
+Elapsed time: 1116.201754808426s
+Processing frame: 5400
+Elapsed time: 1158.438434123993s
+Processing frame: 5600
+Elapsed time: 1201.2376091480255s
+Processing frame: 5800
+Elapsed time: 1244.044378042221s
+Processing frame: 6000
+Elapsed time: 1286.3000512123108s
+Processing frame: 6200
+Elapsed time: 1329.1959569454193s
+Processing frame: 6400
+Elapsed time: 1372.0533306598663s
+Processing frame: 6600
+Elapsed time: 1414.30109333992s
+Processing frame: 6800
+Elapsed time: 1457.204445362091s
+Processing frame: 7000
+Elapsed time: 1500.0536143779755s
+Processing frame: 7200
+Elapsed time: 1542.2964482307434s
+Processing frame: 7400
+Elapsed time: 1585.1310930252075s
+Processing frame: 7600
+Elapsed time: 1627.9722082614899s
+Processing frame: 7800
+Elapsed time: 1670.1826815605164s
+Processing frame: 8000
+Elapsed time: 1713.0169994831085s
+Processing frame: 8200
+Elapsed time: 1755.9056422710419s
+Processing frame: 8400
+Elapsed time: 1798.229216337204s
+Processing frame: 8600
+Elapsed time: 1841.1140990257263s
+Processing frame: 8800
+Elapsed time: 1884.1343848705292s
+Processing frame: 9000
+Elapsed time: 1926.3644318580627s
+Processing frame: 9200
+Elapsed time: 1969.1762385368347s
+Processing frame: 9400
+Elapsed time: 2011.9787805080414s
+Processing frame: 9600
+Elapsed time: 2054.1996972560883s
+Processing frame: 9800
+Elapsed time: 2097.1495158672333s
+Processing frame: 10000
+Elapsed time: 2140.036264181137s
+Processing frame: 10200
+Elapsed time: 2182.4005813598633s
+Processing frame: 10400
+Elapsed time: 2225.30824136734s
+Processing frame: 10600
+Elapsed time: 2268.2520854473114s
+Processing frame: 10800
+Elapsed time: 2310.589177131653s
+Processing frame: 11000
+Elapsed time: 2353.5601420402527s
+Frame: 11166, grabbed=False and frame=None
+Processing frame: 0
+Processing frame: 200
+Processing frame: 400
+Processing frame: 600
+Processing frame: 800
+Processing frame: 1000
+Processing frame: 1200
+Processing frame: 1400
+Processing frame: 1600
+Processing frame: 1800
+Processing frame: 2000
+Processing frame: 2200
+Processing frame: 2400
+Processing frame: 2600
+Processing frame: 2800
+Processing frame: 3000
+Processing frame: 3200
+Processing frame: 3400
+Processing frame: 3600
